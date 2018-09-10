@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.9.0",
+    "npm": "6.2.0"
+  },
+  "description": "Streaming media assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardOpich3/streaming-media-assignment.git"
+  },
+  "author": "Edward Opich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardOpich3/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/edwardOpich3/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
